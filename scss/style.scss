@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color_p: #000000;
+    --color_d: #060A23;
+    --color_bleu_c: #0C154B;
+    --color_deg: linear-gradient(37deg, #000000 11.4%, #060A23 70.2%);
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.no_pag{
+    padding: 5px !important;
+}
+
+.b_deg{
+    background: var(--color_deg) !important;
+
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b_col_w{
+    background: #fff !important;
+}
+.col_w{
+    color: #fff !important;
+}
+
+.gradient_text {
+    background: var(--color_deg); /* Dégradé de gauche à droite */
+    -webkit-background-clip: text; /* Utilisé pour rendre le dégradé visible uniquement sur le texte */
+    -webkit-text-fill-color: transparent; /* Rendre le texte transparent pour afficher le dégradé */
+    background-clip: text; /* Pour les navigateurs non-WebKit */
+    // text-fill-color: transparent; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #ECECEC;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.space{
+    justify-content: space-between;
+}
+
+.menu_bar{
+    padding: 8px 0px 0px 4px;
+    width: 20%;
+    height: 100vh;
+    background: var(--color_deg);
+    position: fixed;
+
+    .menu_logo{
+        width: 100px;
+        margin: 0 0 0 52px;
+        img{
+            width: 100%;
+        }
+    }
+
+    .liens{
+        padding: 0px 0px 0px 25px;
+        .lien:hover {
+            transition: 200ms;
+            background-color: #ECECEC;
+            padding: 5px 5px 5px 45px;
+            margin: 11px 0px;
+            border-radius: 20px 0px 0px 20px;
+            a{ 
+                font-size: 20px;
+                color: #000;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+            }
+       }
+    }
+
+    .lien {
+        // background-color: #fff;
+        padding: 5px 5px 5px 25px;
+        margin: 11px 0px;
+        border-radius: 20px 0px 0px 20px;
+
+        a{ 
+            font-size: 20px;
+            color: #ECECEC;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+        }
+   }
+   .active{
+        transition: 200ms;
+        background-color: #ECECEC;
+        padding: 5px 5px 5px 45px;
+        margin: 11px 0px;
+        border-radius: 20px 0px 0px 20px;
+        a{ 
+            font-size: 20px;
+            color: #000;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+        }
+}
+}
+
+.main{
+    border-top: 7px solid var(--color_d);
+    width: 80%;
+    min-height: 100vh;
+    position: absolute;
+    right: 0;
+    margin: 0;
+}
+
+.header_home{
+    justify-content: space-between;
+    margin: 10px;
+
+    .forme_header_home{
+        width: 250px;
+        height: 125px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    .icon_header_home{
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        background: #060A23;
+        position: relative;
+        left: 200px;
+        top: -114px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i{
+            // position: relative;
+            color: #fff;
+            // left: 11px;
+            // top: 9px;
+            font-size: 20px;
+        }
+    }
+
+    .text_header_home{
+        position: relative;
+        top: -75px;
+        left: 22px;
+        h1{
+            font-size: 30px;
+
+        }
+    }
+
+    .bar_header_home{
+        width: 7px;
+        height: 80px;
+        background: var(--color_deg);
+        border-radius: 20px;
+        position: relative;
+        top: 22px;
+        left: 7px;
+    }
+
+    .number_header_home{
+        position: relative;
+        top: -81px;
+        left: 25px;
+        h2{
+            font-size: 25px;
+
+        }
+    }
+}
+
+.block{
+    width: 90%;
+    margin: auto;
+    // background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.table{
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.btns {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+ .button {
+    padding: 10px 17px;
+    background: var(--color_deg);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header_page{
+
+    .numbe_page{
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+    }
+    .tilte_page{
+        padding: 0 2px 0 0;
+    }
+}
+
+
+table.dataTable thead > tr > th.dt-orderable-asc, table.dataTable thead > tr > th.dt-orderable-desc, table.dataTable thead > tr > td.dt-orderable-asc, table.dataTable thead > tr > td.dt-orderable-desc {
+    cursor: pointer;
+    background: var(--color_bleu_c) !important;
+    color: #fff !important;
+}
+
+td  .button {
+    padding: 5px 7px;
+    background: var(--color_deg);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+}
