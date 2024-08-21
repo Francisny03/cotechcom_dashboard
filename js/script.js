@@ -1,5 +1,4 @@
-	
-new DataTable('#example');
+	new DataTable('#example');
 
 $(document).ready(function() {
     // Loop through each span with class starting with 'p'
@@ -9,3 +8,4 @@ $(document).ready(function() {
         $('.liens .' + spanClass).addClass('active').removeClass(spanClass);
     });
 });
+

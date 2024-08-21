@@ -14,7 +14,7 @@ include('env.php');
 
     
     <link rel="stylesheet" href="scss/style.scss?<?= rand() ?>">
-    <title>dash</title>
+    <title>Dashboard Cotechcom</title>
 </head>
 
 <body>
@@ -29,7 +29,7 @@ include('env.php');
     <div class="liens">
         <div class="lien p1"><a href="index.php">Accueil</a></div>
         <div class="lien p2"><a href="service.php">Services</a></div>
-        <div class="lien p3"><a href="about.php">à propos</a></div>
+        <div class="lien p3"><a href="about.php">À propos</a></div>
         <div class="lien p4"><a href="galerie.php">Galerie</a></div>
         <div class="lien p5"><a href="slider.php">Banniere</a></div>
         <div class="lien p6"><a href="partenaire.php">partenaire</a></div>
