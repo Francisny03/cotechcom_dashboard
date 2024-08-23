@@ -1,5 +1,7 @@
 <?php 
 include('env.php');
+include('function/function.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

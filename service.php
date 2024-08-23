@@ -1,29 +1,8 @@
 <?php 
 include('include/header.php');
+$api_url = $apiurl . 'services/';
+$result = fetchDataFromApi($api_url);
 
-$api_url = $apiurl.'services/';
-
-// Configuration des options pour la requête HTTP
-$options = [
-    "http" => [
-        "header" => "Accept: application/json\r\n",
-        "method" => "GET"
-    ]
-];
-
-// Création du contexte de la requête
-$context = stream_context_create($options);
-
-// Tentative de récupération des données depuis l'API
-$data = file_get_contents($api_url, false, $context);
-
-// Vérification si la récupération des données a échoué
-if ($data === FALSE) {
-    $sms = 'Erreur lors de la récupération des données depuis l\'API.';
-}
-
-// Décodage des données JSON
-$result = json_decode($data, true);
 ?>
 <span class="p2"></span>
 <div class="header_page block table flex space no_pag">
