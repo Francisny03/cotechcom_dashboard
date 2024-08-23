@@ -7,7 +7,7 @@ $result = fetchDataFromApi($api_url);
 <span class="p2"></span>
 <div class="header_page block table flex space no_pag">
     <div class="tilte_page">
-        <h1>Service</h1>
+        <h1>Services</h1>
     </div>
     <div class="numbe_page b_deg center">
         <h1 class="col_w" >12</h1>
@@ -47,7 +47,7 @@ $result = fetchDataFromApi($api_url);
         </tfoot>
     </table>
     <br>
-        <div class="btns"><a href="creat_service.php" class="button">crée</a></div>
+        <div class="btns"><a href="creat_service.php" class="button">créer</a></div>
     <br>
 </div>
 

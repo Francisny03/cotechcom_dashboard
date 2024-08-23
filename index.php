@@ -9,7 +9,7 @@ include('include/header.php')
         <div class="bar_header_home b_col_w"></div>
         <div class="text_header_home col_w">
             <h1>
-                Vue
+                Vues
             </h1>
         </div>
         <div class="icon_header_home b_col_w">
@@ -24,7 +24,7 @@ include('include/header.php')
         <div class="bar_header_home"></div>
         <div class="text_header_home">
             <h1>
-            partenaire
+            Partenaire
             </h1>
         </div>
         <div class="icon_header_home ">
@@ -39,7 +39,7 @@ include('include/header.php')
         <div class="bar_header_home"></div>
         <div class="text_header_home">
             <h1>
-                Vue
+                Vues
             </h1>
         </div>
         <div class="icon_header_home">

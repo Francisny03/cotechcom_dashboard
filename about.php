@@ -4,7 +4,7 @@ include('include/header.php')
 <span class="p3"></span>
 <div class="header_page block table flex space no_pag">
     <div class="tilte_page">
-        <h1>à propos</h1>
+        <h1>À propos</h1>
     </div>
     <div class="numbe_page b_deg center">
         <h1 class="col_w" >12</h1>
