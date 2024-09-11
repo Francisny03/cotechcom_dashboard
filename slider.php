@@ -1,6 +1,6 @@
 <?php 
 include('include/header.php');
-$api_url_slider = $apiurl . 'slider/';
+$api_url_slider = $apiurl . 'Slider/';
 $result_slider = fetchDataFromApis($api_url_slider);
 
 $api_url_count = $apiurl . 'CountSlider/';
