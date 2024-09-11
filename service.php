@@ -1,7 +1,10 @@
 <?php 
 include('include/header.php');
-$api_url = $apiurl . 'services/';
+$api_url = $apiurl . 'Services/';
 $result = fetchDataFromApi($api_url);
+
+$api_url_count = $apiurl . 'CountServices/';
+$result_count = fetchDataFromApis($api_url_count);
 
 ?>
 <span class="p2"></span>
@@ -10,7 +13,7 @@ $result = fetchDataFromApi($api_url);
         <h1>Services</h1>
     </div>
     <div class="numbe_page b_deg center">
-        <h1 class="col_w" >12</h1>
+    <h1 class="col_w" ><?php echo isset($result_count['count']) ? $result_count['count'] : 'N/A'; ?></h1>
     </div>
 </div>
 
@@ -33,7 +36,7 @@ $result = fetchDataFromApi($api_url);
                 <td><?php echo $service['id_services'] ?> </td>
                 <td><?php echo $service['title'] ?></td>
                 <td><?php echo $service['description'] ?></td>
-                <td><a href="" class="button">voir plus</a></td>
+                <td><a href="details_service.php?id_service=<?php echo $service['id_services'] ?>" class="button">voir plus</a></td>det
             </tr>
             <?php  } ?>
         </tbody>
@@ -47,7 +50,7 @@ $result = fetchDataFromApi($api_url);
         </tfoot>
     </table>
     <br>
-        <div class="btns"><a href="creat_service.php" class="button">créer</a></div>
+        <div class="btns"><a href="creat_service.php" class="button">Créer Service</a></div>
     <br>
 </div>
 
