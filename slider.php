@@ -50,8 +50,9 @@ $result_count = fetchDataFromApis($api_url_count);
             </tr>
         </tfoot>
     </table>
+    
     <br>
-        <div class="btns"><a href="creat_slider.php" class="button">crée</a></div>
+        <div class="btns"><a href="creat_slider.php" class="button">crée slider</a></div>
     <br>
 </div>
 

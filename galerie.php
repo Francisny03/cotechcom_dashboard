@@ -51,7 +51,7 @@ $result_count = fetchDataFromApis($api_url_count);
         </tfoot>
     </table>
     <br>
-        <div class="btns"><a href="creat_galerie.php" class="button">crée</a></div>
+        <div class="btns"><a href="creat_galerie.php" class="button">crée galerie</a></div>
     <br>
 </div>
 <?php 
