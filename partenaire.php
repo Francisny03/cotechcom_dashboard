@@ -4,7 +4,7 @@ include('include/header.php')
 <span class="p6"></span>
 <div class="header_page block table flex space no_pag">
     <div class="tilte_page">
-        <h1>partenaire</h1>
+        <h1>Partenaire</h1>
     </div>
     <div class="numbe_page b_deg center">
         <h1 class="col_w" >22</h1>
@@ -19,7 +19,7 @@ include('include/header.php')
             <tr>
                 <th>Id</th>
                 <th>Nom</th>
-                <th>Details</th>
+                <th>Détails</th>
                 <th>Plus</th>
             </tr>
         </thead>
@@ -28,7 +28,7 @@ include('include/header.php')
                 <td>1</td>
                 <td>ad</td>
                 <td>Edinburgh</td>
-                <td><a href="" class="button">voir plus</a></td>
+                <td><a href="" class="button">Voir plus</a></td>
             </tr>
           
         </tbody>
@@ -36,7 +36,7 @@ include('include/header.php')
             <tr>
             <th>Id</th>
                 <th>Nom</th>
-                <th>details</th>
+                <th>Détails</th>
                 <th>plus</th>
             </tr>
         </tfoot>

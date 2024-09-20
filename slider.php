@@ -9,7 +9,7 @@ $result_count = fetchDataFromApis($api_url_count);
 <span class="p5"></span>
 <div class="header_page block table flex space no_pag">
     <div class="tilte_page">
-        <h1>Banniere</h1>
+        <h1>Bannière</h1>
     </div>
     <div class="numbe_page b_deg center">
         <h1 class="col_w" ><?php echo isset($result_count['count']) ? $result_count['count'] : '0'; ?></h1>
@@ -24,8 +24,8 @@ $result_count = fetchDataFromApis($api_url_count);
             <tr>
                 <th>Id</th>
                 <th>image</th>
-                <th>tite</th>
-                <th>details</th>
+                <th>Titre</th>
+                <th>Détails</th>
                 <!-- <th>Plus</th> -->
             </tr>
         </thead>
@@ -36,7 +36,7 @@ $result_count = fetchDataFromApis($api_url_count);
                 <td> <img src="<?php echo $service['image'] ?>" alt=""> </td>
                 <td><?php echo $service['title'] ?></td>
                 <td><?php echo $service['description'] ?></td>
-                <!-- <td><a href="" class="button">voir plus</a></td> -->
+                <!-- <td><a href="" class="button">Voir plus</a></td> -->
             </tr>
         <?php  } ?>
         </tbody>
@@ -44,8 +44,8 @@ $result_count = fetchDataFromApis($api_url_count);
             <tr>
                 <th>Id</th>
                 <th>image</th>
-                <th>tite</th>
-                <th>details</th>
+                <th>Titre</th>
+                <th>Détails</th>
                 <!-- <th>Plus</th> -->
             </tr>
         </tfoot>

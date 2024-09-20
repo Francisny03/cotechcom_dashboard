@@ -25,7 +25,7 @@ $result_count = fetchDataFromApis($api_url_count);
             <tr>
                 <th>Id</th>
                 <th>Nom</th>
-                <th>Details</th>
+                <th>Détails</th>
                 <th>Plus</th>
             </tr>
         </thead>
@@ -36,7 +36,7 @@ $result_count = fetchDataFromApis($api_url_count);
                 <td><?php echo $service['id_services'] ?> </td>
                 <td><?php echo $service['title'] ?></td>
                 <td><?php echo $service['description'] ?></td>
-                <td><a href="details_service.php?id_service=<?php echo $service['id_services'] ?>" class="button">voir plus</a></td>det
+                <td><a href="Détails_service.php?id_service=<?php echo $service['id_services'] ?>" class="button">Voir plus</a></td>det
             </tr>
             <?php  } ?>
         </tbody>
@@ -44,13 +44,13 @@ $result_count = fetchDataFromApis($api_url_count);
             <tr>
             <th>Id</th>
                 <th>Nom</th>
-                <th>details</th>
+                <th>Détails</th>
                 <th>plus</th>
             </tr>
         </tfoot>
     </table>
     <br>
-        <div class="btns"><a href="creat_service.php" class="button">Créer Service</a></div>
+        <div class="btns"><a href="creat_service.php" class="button">Créer un service</a></div>
     <br>
 </div>
 

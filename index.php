@@ -240,7 +240,7 @@ include('include/header.php')
         </tfoot>
     </table>
     <br>
-        <div class="btns"><a href="" class="button">voir plus</a></div>
+        <div class="btns"><a href="" class="button">Voir plus</a></div>
     <br>
 </div>
 

@@ -19,7 +19,7 @@ include('include/header.php')
             <tr>
                 <th>Id</th>
                 <th>Nom</th>
-                <th>Details</th>
+                <th>Détails</th>
                 <th>Plus</th>
             </tr>
         </thead>
@@ -28,7 +28,7 @@ include('include/header.php')
                 <td>1</td>
                 <td>ad</td>
                 <td>Edinburgh</td>
-                <td><a href="" class="button">voir plus</a></td>
+                <td><a href="" class="button">Voir plus</a></td>
             </tr>
           
         </tbody>
@@ -36,7 +36,7 @@ include('include/header.php')
             <tr>
             <th>Id</th>
                 <th>Nom</th>
-                <th>details</th>
+                <th>Détails</th>
                 <th>plus</th>
             </tr>
         </tfoot>

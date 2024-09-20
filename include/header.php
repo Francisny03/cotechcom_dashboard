@@ -33,8 +33,8 @@ include('function/function.php');
         <div class="lien p2"><a href="service.php">Services</a></div>
         <!-- <div class="lien p3"><a href="about.php">À propos</a></div> -->
         <div class="lien p4"><a href="galerie.php">Galerie</a></div>
-        <div class="lien p5"><a href="slider.php">Banniere</a></div>
-        <div class="lien p6"><a href="partenaire.php">partenaire</a></div>
+        <div class="lien p5"><a href="slider.php">Bannière</a></div>
+        <div class="lien p6"><a href="Partenaire.php">Partenaire</a></div>
     </div>
 </div>
 
