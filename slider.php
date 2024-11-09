@@ -36,7 +36,6 @@ $result_count = fetchDataFromApis($api_url_count);
                 <td> <img src="<?php echo $service['image'] ?>" alt=""> </td>
                 <td><?php echo $service['title'] ?></td>
                 <td><?php echo $service['description'] ?></td>
-                <!-- <td><a href="" class="button">Voir plus</a></td> -->
             </tr>
         <?php  } ?>
         </tbody>
